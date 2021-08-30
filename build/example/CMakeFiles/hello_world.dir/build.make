@@ -90,6 +90,24 @@ hello_world_EXTERNAL_OBJECTS =
 
 /home/aa/test/devel/lib/example/hello_world: example/CMakeFiles/hello_world.dir/src/hello_world.cpp.o
 /home/aa/test/devel/lib/example/hello_world: example/CMakeFiles/hello_world.dir/build.make
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/libroscpp.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/librosconsole.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/librostime.so
+/home/aa/test/devel/lib/example/hello_world: /opt/ros/melodic/lib/libcpp_common.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/aa/test/devel/lib/example/hello_world: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/aa/test/devel/lib/example/hello_world: example/CMakeFiles/hello_world.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aa/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/aa/test/devel/lib/example/hello_world"
 	cd /home/aa/test/build/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=$(VERBOSE)

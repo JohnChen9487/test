@@ -9,7 +9,9 @@ project(example)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   message_generation
+  message_runtime
   roscpp
+  std_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -134,7 +136,9 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/example_node.cpp)
 add_executable(hello_world src/hello_world.cpp)
-target_link_libraries(hello_world ${catkin_lIBRARIES})
+target_link_libraries(hello_world ${catkin_LIBRARIES})
+add_executable(C_one src/C_one.cpp)
+target_link_libraries(C_one ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
